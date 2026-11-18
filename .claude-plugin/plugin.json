@@ -1,0 +1,12 @@
+{
+  "name": "prep-words",
+  "version": "1.0.0",
+  "description": "Turn the work words you might mispronounce into short spoken sentences grouped by topic, ready to practise before meetings and presentations.",
+  "author": {
+    "name": "American Accent",
+    "url": "https://americanaccent.us"
+  },
+  "homepage": "https://americanaccent.us/?utm_source=github&utm_medium=plugin&utm_campaign=prep-words",
+  "license": "MIT",
+  "keywords": ["pronunciation", "english", "esl", "presentations", "accent"]
+}

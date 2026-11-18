@@ -1,0 +1,15 @@
+{
+  "name": "claude-pronunciation-prep",
+  "description": "Pronunciation prep for professionals who speak English as a second language: practise the work words you are about to say.",
+  "owner": {
+    "name": "American Accent",
+    "url": "https://americanaccent.us"
+  },
+  "plugins": [
+    {
+      "name": "prep-words",
+      "source": "./",
+      "description": "Turn the work words you might mispronounce into short spoken sentences grouped by topic, ready to practise before meetings and presentations."
+    }
+  ]
+}
