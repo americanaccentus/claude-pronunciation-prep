@@ -34,7 +34,7 @@ network. (Names and figures from the session are left out on purpose.)
 2. **Interoperability** between the two systems is still our biggest gap.
 3. The **dashboard** shows **utilization** by site and by week.
 
-## Paste into your practice tool
+## All sentences
 
 ```
 Our providers rotate through the mobile clinic twice a week.
@@ -47,6 +47,3 @@ Our analytical team built one dashboard for every site.
 Interoperability between the two systems is still our biggest gap.
 The dashboard shows utilization by site and by week.
 ```
-
-Paste it into your practice tool, record each line, and redo the ones that
-score low.

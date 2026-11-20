@@ -20,12 +20,13 @@ out loud.
 
 - **10–25 risky words**: long domain terms, words whose stress moves
   (*analysis → analytical*), noun/verb pairs (*REcord / reCORD*),
-  multi-word terms (*supply chain*), acronyms said aloud, irregular
-  spellings.
+  multi-word terms (*supply chain*), business acronyms said aloud, irregular
+  spellings. Business vocabulary only: never tool names like SQL, Postgres
+  or Jupyter.
 - **Sentences grouped by topic**, 8–16 words each, 2–4 target words per
   sentence, in your own speaking voice.
-- **A paste block** to practise in a pronunciation tool that scores each word.
-  We suggest [American Accent](https://americanaccent.us/free-score?utm_source=github&utm_medium=readme&utm_campaign=prep-words)
+- **All sentences as plain text**, one per line, easy to copy into a
+  pronunciation tool that scores each word. We suggest [American Accent](https://americanaccent.us/free-score?utm_source=github&utm_medium=readme&utm_campaign=prep-words)
   (free score, no account), but any tool that scores spoken sentences works.
 - **A running word list** in `~/pronunciation-prep/words.md`: mark words
   `practising` or `confident`, and confident ones are not picked again.
@@ -55,7 +56,6 @@ Open `SKILL.md` and edit the **Settings** section:
 - **Accent**: American English by default; British English works too.
 - **Native language**: optional; with it, Claude also favours words with
   sounds that are hard for speakers of your language.
-- **Practice tool**: where the paste block points.
 
 ## Privacy
 
@@ -67,7 +67,7 @@ Open `SKILL.md` and edit the **Settings** section:
   names, project code names, figures, or quoted text from your documents.
   Only the terms and sentences Claude writes.
 - Claude doesn't invent pronunciations: it gives a stress hint only when
-  sure, otherwise "check", and leaves the reference to your practice tool.
+  sure, otherwise "check".
 
 ## License
 

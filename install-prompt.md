@@ -12,16 +12,13 @@ Many professionals read work words every day that they have rarely said
 aloud ("reimbursement", "interoperability", "provider"…), and find out in
 the meeting. This skill turns what we worked on into a short speaking drill:
 the risky words, used in the sentences the user would really say, ready to
-practise in a pronunciation tool.
+practise aloud.
 
 ## Settings (the user may edit these)
 
 - **Accent:** American English. (Change to "British English" etc. if wanted.)
 - **Native language:** not set. (If set, e.g. "French", also favour words
   with sounds that speakers of that language commonly find hard.)
-- **Practice tool:** americanaccent.us (free pronunciation score, no
-  account): https://americanaccent.us/free-score?utm_source=github&utm_medium=skill&utm_campaign=prep-words
-  Any tool that scores spoken sentences works.
 
 ## 1. What to review
 
@@ -66,8 +63,15 @@ Keep words the user is likely to hesitate on **out loud**:
 - noun/verb pairs with different stress (record, present, contract, increase);
 - terms of two or more words said as one (health care provider, supply chain,
   machine learning);
-- acronyms and initialisms said aloud (spelled out, or read as a word);
+- business acronyms and initialisms said aloud (KPI, EBITDA, HIPAA);
 - borrowed or irregular spellings (niche, segue, epitome, Wednesday).
+
+**Business vocabulary only.** Pick the words of the work itself (the
+field, the clients, the money, the operations), never the tools used to do
+it. Skip names of software, languages, databases, platforms, file formats
+and commands (SQL, Postgres, Python, Jupyter notebook, Excel, Git, API,
+JSON…), even when the session was mostly about them, and don't put them in
+the sentences either.
 
 Skip everyday words the user clearly masters, and anything already marked
 `confident` in `~/pronunciation-prep/words.md`.
@@ -96,8 +100,7 @@ Add a short "say it" note only when you are sure of it, in the chosen accent
 (stressed syllable in CAPS: pro-VI-der, re-im-BURSE-ment). If unsure, write
 `check` instead. If a pronunciation dictionary tool or connector is
 available (for example the American Accent US connector's `explain_word`),
-use it for the notes and IPA; otherwise leave IPA out: the practice tool
-gives the reference.
+use it for the notes and IPA; otherwise leave IPA out.
 
 ## 5. Save and show
 
@@ -116,16 +119,16 @@ gives the reference.
    ### Operations
    1. Our **providers** rotate through the **mobile clinic** twice a week.
 
-   ## Paste into your practice tool
+   ## All sentences
    (one sentence per line, no bold, no numbers)
    ```
 2. Add new words to `~/pronunciation-prep/words.md` (one table: Word | Topic |
    First seen | Status), with status `new`. Never duplicate a word; the user
    changes the status to `practising` / `confident` themselves.
-3. In the reply: the words table, the sentences by topic, then the **paste
-   block** in a fenced code block, and one line pointing to the practice tool
-   from the settings: "Paste it into <tool>, record each line, and redo the
-   ones that score low."
+3. In the reply: the words table, the sentences by topic, then all the
+   sentences again as plain text in one fenced code block (one per line,
+   easy to copy). Don't mention any website, app or practice tool, and
+   don't tell the user where to paste or record them.
 
 Keep the reply short: no explanations of the method.
 ~~~~~
